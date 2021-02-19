@@ -52,6 +52,18 @@
     background-color:#8cd4ce;
     padding: 20px;
   }
+
+  @media only screen and (min-width: 768px){
+    .section__1{
+      flex: 1 0 auto;
+      text-align: right;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+    }
+  }
+
   html, body {
     height: 100%;
   }
@@ -81,11 +93,13 @@
   }
 
   .content {
-    margin-top:60px ;
-    align-self: center;
     flex: 1 0 auto;
-    text-align: left;
+    margin-top:45px;
+    align-self: center;
+    padding-bottom: 30px;
+
   }
+
 
   .input__boxes {
     font-weight: bold;
@@ -111,7 +125,6 @@
     flex-shrink: 0;
     margin: auto;
     margin-top: auto;
-    position: sticky;
     
   }
 
