@@ -53,16 +53,18 @@
     padding: 20px;
   }
 
-    @media only screen and (min-width: 768px){
+  @media only screen and (max-width: 768px){
     .section__1{
       flex: 1 0 auto;
-      text-align: right;
+      text-align: center;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
 
     }
   }
+
+
   html, body {
     height: 100%;
   }

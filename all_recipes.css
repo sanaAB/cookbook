@@ -64,6 +64,7 @@
     }
   }
 
+
   html, body {
     height: 100%;
   }
@@ -92,34 +93,31 @@
     color: rgb(99, 97, 97);
   }
 
-  .content {
-    flex: 1 0 auto;
-    margin-top:45px;
+  .content { 
+    display: flex;
+    margin :40px 0 0 0 ;
     align-self: center;
-    padding-right: 10px;
-    padding-left: 10px;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    text-align: left;
     padding-bottom: 30px;
 
   }
 
-
-
-  .input__boxes {
-    font-weight: bold;
-    background-color:rgb(231, 231, 231);
-    border: 10px solid  #8cd4ce;
-    border-radius: 4px;
-  }
-
-  .text__area {
-      border-style: solid;
-      width: 80%;
-      min-height: 100px;
+  @media only screen and (min-width: 768px) {
+    .section3__box {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 50px 0 50px 0;
+    }
   }
 
 
-  
-    
+
+
+
   .footer {
     background-color:#8cd4ce;
     width: 100%;
