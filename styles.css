@@ -148,6 +148,12 @@
     justify-content: space-around;
     padding: 50px;
     }
+    
+  .accordion_title{
+      width: 100%;
+      align-items: center;
+
+    }
   }
 
 
